@@ -1,6 +1,6 @@
 ﻿namespace RecommendationApp.Domain.Entities;
 
-public class ReviewLike
+public class ReviewUserLike
 {
     public Guid ReviewId { get; set; }
     public Guid UserId { get; set; }

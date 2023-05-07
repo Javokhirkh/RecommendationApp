@@ -1,6 +1,6 @@
 ﻿namespace RecommendationApp.Domain.Common;
 
-public interface IEntity<TKey> : IAuditableEntity
+public interface IHaveIdProp<TKey>
 {
     public TKey Id { get; set; }
 }

@@ -7,5 +7,4 @@ public interface IAuditableEntity
     public string LastModifiedBy { get; set; }
     public DateTimeOffset? LastModifiedOnUtc { get; set; }
     public string IPAddress { get; set; }
-    public bool IsDeleted { get; set; }
 }

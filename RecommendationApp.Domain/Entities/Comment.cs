@@ -2,7 +2,7 @@
 
 namespace RecommendationApp.Domain.Entities;
 
-public class Comment : BaseIEntity<Guid>
+public class Comment : BaseAuditableEntity<Guid>
 {
     public Guid ReviewId { get; set; }
     public Guid UserId { get; set; }
