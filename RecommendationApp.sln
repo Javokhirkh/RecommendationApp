@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F3A88265-7F96-4E10-9AA4-8510028F0595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationApp.BlazorServer", "RecommendationApp.BlazorServer\RecommendationApp.BlazorServer.csproj", "{71264D1E-E96D-4E51-B7A9-468E6AE74810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationApp.Api", "RecommendationApp.Api\RecommendationApp.Api.csproj", "{A4C4FF0D-9F1F-474E-A3C0-A858C2E8E3DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{E6D0E1D5-3D19-42DF-93EC-F61F5C5586A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationApp.Domain", "RecommendationApp.Domain\RecommendationApp.Domain.csproj", "{D801B531-19B7-44D4-9A0D-E230FBE12368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationApp.Application", "RecommendationApp.Application\RecommendationApp.Application.csproj", "{F601C6CE-A60D-46F4-9FE4-7D1510F25997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationApp.Infrastructure", "RecommendationApp.Infrastructure\RecommendationApp.Infrastructure.csproj", "{36BEA20B-84DB-4D92-BB1F-B58F25F37691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationApp.Contracts", "RecommendationApp.Contracts\RecommendationApp.Contracts.csproj", "{070C7055-825E-4E13-967F-A855B83A2CD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71264D1E-E96D-4E51-B7A9-468E6AE74810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71264D1E-E96D-4E51-B7A9-468E6AE74810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71264D1E-E96D-4E51-B7A9-468E6AE74810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71264D1E-E96D-4E51-B7A9-468E6AE74810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C4FF0D-9F1F-474E-A3C0-A858C2E8E3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C4FF0D-9F1F-474E-A3C0-A858C2E8E3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C4FF0D-9F1F-474E-A3C0-A858C2E8E3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C4FF0D-9F1F-474E-A3C0-A858C2E8E3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D801B531-19B7-44D4-9A0D-E230FBE12368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D801B531-19B7-44D4-9A0D-E230FBE12368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D801B531-19B7-44D4-9A0D-E230FBE12368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D801B531-19B7-44D4-9A0D-E230FBE12368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F601C6CE-A60D-46F4-9FE4-7D1510F25997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F601C6CE-A60D-46F4-9FE4-7D1510F25997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F601C6CE-A60D-46F4-9FE4-7D1510F25997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F601C6CE-A60D-46F4-9FE4-7D1510F25997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BEA20B-84DB-4D92-BB1F-B58F25F37691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BEA20B-84DB-4D92-BB1F-B58F25F37691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BEA20B-84DB-4D92-BB1F-B58F25F37691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BEA20B-84DB-4D92-BB1F-B58F25F37691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070C7055-825E-4E13-967F-A855B83A2CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070C7055-825E-4E13-967F-A855B83A2CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070C7055-825E-4E13-967F-A855B83A2CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070C7055-825E-4E13-967F-A855B83A2CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71264D1E-E96D-4E51-B7A9-468E6AE74810} = {F3A88265-7F96-4E10-9AA4-8510028F0595}
+		{A4C4FF0D-9F1F-474E-A3C0-A858C2E8E3DD} = {F3A88265-7F96-4E10-9AA4-8510028F0595}
+		{D801B531-19B7-44D4-9A0D-E230FBE12368} = {E6D0E1D5-3D19-42DF-93EC-F61F5C5586A3}
+		{F601C6CE-A60D-46F4-9FE4-7D1510F25997} = {E6D0E1D5-3D19-42DF-93EC-F61F5C5586A3}
+		{36BEA20B-84DB-4D92-BB1F-B58F25F37691} = {E6D0E1D5-3D19-42DF-93EC-F61F5C5586A3}
+		{070C7055-825E-4E13-967F-A855B83A2CD2} = {E6D0E1D5-3D19-42DF-93EC-F61F5C5586A3}
+	EndGlobalSection
+EndGlobal
